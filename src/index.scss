@@ -1,0 +1,71 @@
+.rs-widget {
+  position: absolute;
+  background-color: #fff;
+  width: 5rem;
+  padding: 5px;
+  height: 1.5rem;
+  opacity: 0.3;
+  box-shadow: rgba(17, 17, 26, 0.3) 0px 4px 6px,
+    rgba(17, 17, 26, 0.2) 0px 8px 18px;
+  position: absolute;
+  z-index: 99999999;
+  border-radius: 8px;
+  transition: all 200ms ease-in-out;
+  display: flex;
+  align-items: center;
+
+  .rs-widget-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #34374b;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    line-height: 2rem;
+    overflow: hidden;
+    padding: 0 5px;
+  }
+}
+
+.rs-position-point {
+  position: absolute;
+  height: 7px;
+  width: 7px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #34374b;
+  background-color: #fff;
+}
+
+.rs-widget:hover {
+  width: 5rem;
+  height: 5rem;
+  opacity: 0.8;
+  .rs-widget-label {
+    line-height: 5rem;
+  }
+}
+
+.rs-position-top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.rs-position-top-right {
+  top: 5px;
+  right: 5px;
+}
+
+.rs-position-bottom-left {
+  bottom: 5px;
+  left: 5px;
+}
+
+.rs-position-bottom-right {
+  bottom: 5px;
+  right: 5px;
+}
+
+.rs-position-active {
+  background-color: #34374b;
+}
