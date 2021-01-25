@@ -17,19 +17,82 @@
 
 > A react widget to help you view your breakpoints as you're developing and testing your app without having to use any dev tools
 
+![](preview.png)
+
 ### 🏠 [Homepage](https://github.com/imoby/react-breakpoint-widget.git)
+
+Setting this tool up is as easy as installing this dependency and passing in your breakpoints for your app. This is meant to ONLY be used in development mode so please make sure to add any checks for dev/prod when adding this widget.
+
+## Preview
+
+![](preview.gif)
 
 ## Install
 
-```sh
-yarn install
+### Yarn
+
+```console
+$ yarn add -D react-breakpoint-widget
+```
+
+### Npm
+
+```console
+$ npm install -D react-breakpoint-widget
+```
+
+## Import
+
+```jsx
+import ResponsiveWidget, { BreakPoint } from 'react-breakpoint-widget';
 ```
 
 ## Usage
 
-```sh
-yarn start
+```jsx
+<div>
+  {process.env.NODE_ENV === 'development' && (
+    <ResponsiveWidget breakPoints={breakpoints} />
+  )}
+</div>
 ```
+
+## Example of breakpoints
+
+### One thing to keep note of is that if you do not want a max breakpiont set on the last point, you can not set a maximum and it will automatically be taken care of.
+
+```jsx
+const breakpoints: BreakPoint[] = [
+  {
+    minWidth: 0,
+    maxWidth: 300,
+    label: '📱 MobileSmall',
+  },
+  {
+    minWidth: 301,
+    maxWidth: 600,
+    label: '📱 Mobile',
+  },
+  {
+    minWidth: 601,
+    maxWidth: 800,
+    label: '💻 Tablet',
+  },
+  {
+    minWidth: 801,
+    label: ' 🖥 Desktop',
+  },
+];
+```
+
+## API
+
+### Props
+
+| Prop Name       | Description                                                       |
+| --------------- | ----------------------------------------------------------------- |
+| breakPoints     | An array of breakpoints that follow the BreakPoint interface      |
+| initialPosition | Position where the tool should be anchored to initially on screen |
 
 ## Author
 
