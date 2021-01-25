@@ -11,9 +11,9 @@ export declare type BreakPoint = {
     maxWidth?: number;
     label: string;
 };
-export declare type ResponsiveWidgetProps = {
+export declare type BreakpointWidgetProps = {
     initialPosition?: Position;
     breakPoints: BreakPoint[];
 };
-declare const ResponsiveWidget: (props: ResponsiveWidgetProps) => React.ReactElement;
-export default ResponsiveWidget;
+declare const BreakpointWidget: (props: BreakpointWidgetProps) => React.ReactElement;
+export default BreakpointWidget;

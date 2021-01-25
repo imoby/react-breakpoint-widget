@@ -15,7 +15,7 @@ export type BreakPoint = {
   label: string;
 };
 
-export type ResponsiveWidgetProps = {
+export type BreakpointWidgetProps = {
   initialPosition?: Position;
   breakPoints: BreakPoint[];
 };
@@ -73,7 +73,7 @@ const PointPositioner = ({
   );
 };
 
-const ResponsiveWidget = (props: ResponsiveWidgetProps): React.ReactElement => {
+const BreakpointWidget = (props: BreakpointWidgetProps): React.ReactElement => {
   const [currentPosition, setCurrentPosition] = useState<Position>(
     Position.BOTTOMLEFT
   );
@@ -110,4 +110,4 @@ const ResponsiveWidget = (props: ResponsiveWidgetProps): React.ReactElement => {
   );
 };
 
-export default ResponsiveWidget;
+export default BreakpointWidget;

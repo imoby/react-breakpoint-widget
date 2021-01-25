@@ -1,14 +1,14 @@
-<h1 align="center">Welcome to React Responsive Widget 👋</h1>
+<h1 align="center">Welcome to React Breakpoint 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/imoby/react-responsive-widget#readme" target="_blank">
+  <a href="https://github.com/imoby/react-breakpoint-widget#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/imoby/react-responsive-widget/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/imoby/react-breakpoint-widget/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/imoby/react-responsive-widget/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/imoby/react-responsive-widget" />
+  <a href="https://github.com/imoby/react-breakpoint-widget/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/imoby/react-breakpoint-widget" />
   </a>
   <a href="https://twitter.com/imoby" target="_blank">
     <img alt="Twitter: imoby" src="https://img.shields.io/twitter/follow/imoby.svg?style=social" />
@@ -17,7 +17,7 @@
 
 > A react widget to help you view your breakpoints as you're developing and testing your app without having to use any dev tools
 
-### 🏠 [Homepage](https://github.com/imoby/react-responsive-widget.git)
+### 🏠 [Homepage](https://github.com/imoby/react-breakpoint-widget.git)
 
 ## Install
 
@@ -46,7 +46,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Muhamed Brifkani](https://github.com/imoby).<br />
-This project is [MIT](https://github.com/imoby/react-responsive-widget/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/imoby/react-breakpoint-widget/blob/master/LICENSE) licensed.
 
 ---
 

@@ -1,14 +1,14 @@
 {
-  "name": "react-responsive-widget",
+  "name": "react-breakpoint-widget",
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
-  "description": "A react widget to help you view your breakpoints as you're developing and testing your app without having to use any dev tools",
+  "description": "A react tool to help you view your breakpoints as you're developing and testing your app without having to use any dev tools",
   "author": "Muhamed Brifkani",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imoby/react-responsive-widget.git"
+    "url": "git+https://github.com/imoby/react-breakpoint-widget.git"
   },
   "dependencies": {
     "react-responsive": "^8.2.0"

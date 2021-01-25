@@ -55,7 +55,7 @@ var PointPositioner = function (_a) {
         React__default['default'].createElement("div", { className: "rs-position-point rs-position-bottom-right " + (currentPosition === exports.Position.BOTTOMRIGHT ? 'rs-position-active' : ''), onClick: function () { return setPosition(exports.Position.BOTTOMRIGHT); } }),
         React__default['default'].createElement("div", { className: "rs-position-point rs-position-top-right " + (currentPosition === exports.Position.TOPRIGHT ? 'rs-position-active' : ''), onClick: function () { return setPosition(exports.Position.TOPRIGHT); } })));
 };
-var ResponsiveWidget = function (props) {
+var BreakpointWidget = function (props) {
     var _a;
     var _b = React.useState(exports.Position.BOTTOMLEFT), currentPosition = _b[0], setCurrentPosition = _b[1];
     var _c = React.useState(false), focused = _c[0], setFocused = _c[1];
@@ -73,5 +73,5 @@ var ResponsiveWidget = function (props) {
         focused && (React__default['default'].createElement(PointPositioner, { currentPosition: currentPosition, setPosition: setCurrentPosition }))));
 };
 
-exports.default = ResponsiveWidget;
+exports.default = BreakpointWidget;
 //# sourceMappingURL=index.js.map
