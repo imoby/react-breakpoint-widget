@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to React Responsive Widget 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/imoby/react-responsive-widget#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/imoby/react-responsive-widget/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/imoby/react-responsive-widget/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/imoby/React Responsive Widget" />
+  </a>
+  <a href="https://twitter.com/imoby" target="_blank">
+    <img alt="Twitter: imoby" src="https://img.shields.io/twitter/follow/imoby.svg?style=social" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A react widget to help you view your breakpoints as you're developing and testing your app without having to use any dev tools
 
-## Available Scripts
+### 🏠 [Homepage](npx readme-md-generator)
 
-In the project directory, you can run:
+## Install
 
-### `yarn start`
+```sh
+yarn install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```sh
+yarn start
+```
 
-### `yarn test`
+## Author
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👤 **Muhamed Brifkani**
 
-### `yarn build`
+- Website: muhamedbrifkani.com
+- Twitter: [@imoby](https://twitter.com/imoby)
+- Github: [@imoby](https://github.com/imoby)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Show your support
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Give a ⭐️ if this project helped you!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📝 License
 
-### `yarn eject`
+Copyright © 2021 [Muhamed Brifkani](https://github.com/imoby).<br />
+This project is [MIT](https://github.com/imoby/react-responsive-widget/blob/master/LICENSE) licensed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
