@@ -52,7 +52,7 @@ import ResponsiveWidget, { BreakPoint } from 'react-breakpoint-widget';
 ```jsx
 <div>
   {process.env.NODE_ENV === 'development' && (
-    <ResponsiveWidget breakPoints={breakpoints} />
+    <BreakpointWidget breakPoints={breakpoints} />
   )}
 </div>
 ```
