@@ -17,7 +17,7 @@
 
 > A react widget to help you view your breakpoints as you're developing and testing your app without having to use any dev tools
 
-### 🏠 [Homepage](npx readme-md-generator)
+### 🏠 [Homepage](https://github.com/imoby/react-responsive-widget.git)
 
 ## Install
 
