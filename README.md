@@ -44,7 +44,7 @@ $ npm install -D react-breakpoint-widget
 ## Import
 
 ```jsx
-import ResponsiveWidget, { BreakPoint } from 'react-breakpoint-widget';
+import BreakpointWidget, { BreakPoint } from 'react-breakpoint-widget';
 ```
 
 ## Usage
